@@ -14,10 +14,10 @@ variable "instance_type" {
 variable "ami_instance" {
   description = "number of instance to create"
   type        = string
-  default = "ami-0f86a70488991335e"
+  default     = "ami-0f86a70488991335e"
 }
 
 variable "key_name" {
-  type = string
+  type    = string
   default = "trvm"
 }
